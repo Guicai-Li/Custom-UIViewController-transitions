@@ -15,6 +15,7 @@
 		B5DA0BA11B5CABDA0015DD7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA0B9F1B5CABDA0015DD7D /* LaunchScreen.xib */; };
 		B5DA0BAD1B5CABDA0015DD7D /* Custom_UIViewController_transitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA0BAC1B5CABDA0015DD7D /* Custom_UIViewController_transitionsTests.m */; };
 		B5DA0BB81B5CB4D00015DD7D /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA0BB71B5CB4D00015DD7D /* Animator.m */; };
+		B5DA0BBB1B5CC6EF0015DD7D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA0BBA1B5CC6EF0015DD7D /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		B5DA0BAC1B5CABDA0015DD7D /* Custom_UIViewController_transitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_UIViewController_transitionsTests.m; sourceTree = "<group>"; };
 		B5DA0BB61B5CB4D00015DD7D /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
 		B5DA0BB71B5CB4D00015DD7D /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		B5DA0BB91B5CC6EF0015DD7D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B5DA0BBA1B5CC6EF0015DD7D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				B5DA0B951B5CABDA0015DD7D /* AppDelegate.m */,
 				B5DA0B971B5CABDA0015DD7D /* ViewController.h */,
 				B5DA0B981B5CABDA0015DD7D /* ViewController.m */,
+				B5DA0BB91B5CC6EF0015DD7D /* DetailViewController.h */,
+				B5DA0BBA1B5CC6EF0015DD7D /* DetailViewController.m */,
 				B5DA0BB61B5CB4D00015DD7D /* Animator.h */,
 				B5DA0BB71B5CB4D00015DD7D /* Animator.m */,
 				B5DA0B9A1B5CABDA0015DD7D /* Main.storyboard */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DA0BBB1B5CC6EF0015DD7D /* DetailViewController.m in Sources */,
 				B5DA0BB81B5CB4D00015DD7D /* Animator.m in Sources */,
 				B5DA0B991B5CABDA0015DD7D /* ViewController.m in Sources */,
 				B5DA0B961B5CABDA0015DD7D /* AppDelegate.m in Sources */,
@@ -354,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Custom UIViewController transitions/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -364,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Custom UIViewController transitions/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

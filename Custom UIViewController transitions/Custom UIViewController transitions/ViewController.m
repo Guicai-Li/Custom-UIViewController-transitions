@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "DetailViewController.h"
 #import "Animator.h"
 
 @interface ViewController () <UINavigationControllerDelegate>
+
+@property (weak, nonatomic) IBOutlet UIButton *btn;
 
 @end
 
@@ -26,6 +29,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnClicked:(id)sender {
+    
+    DetailViewController *detailViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"DetailViewController"];
+    
+    [self.navigationController pushViewController:detailViewController animated:YES];
+}
 
 - (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
                                    animationControllerForOperation:(UINavigationControllerOperation)operation

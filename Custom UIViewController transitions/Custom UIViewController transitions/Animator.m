@@ -20,8 +20,9 @@
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
     UIViewController *fromViewController = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toViewController = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
-    
+
     // The view in which the animated transition should take place.
+    
     [[transitionContext containerView] addSubview:toViewController.view];
     toViewController.view.alpha = 0;
     
