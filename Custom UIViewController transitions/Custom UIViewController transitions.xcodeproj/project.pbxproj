@@ -14,6 +14,7 @@
 		B5DA0B9E1B5CABDA0015DD7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DA0B9D1B5CABDA0015DD7D /* Images.xcassets */; };
 		B5DA0BA11B5CABDA0015DD7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DA0B9F1B5CABDA0015DD7D /* LaunchScreen.xib */; };
 		B5DA0BAD1B5CABDA0015DD7D /* Custom_UIViewController_transitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA0BAC1B5CABDA0015DD7D /* Custom_UIViewController_transitionsTests.m */; };
+		B5DA0BB81B5CB4D00015DD7D /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA0BB71B5CB4D00015DD7D /* Animator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B5DA0BA61B5CABDA0015DD7D /* Custom UIViewController transitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom UIViewController transitionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DA0BAB1B5CABDA0015DD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5DA0BAC1B5CABDA0015DD7D /* Custom_UIViewController_transitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_UIViewController_transitionsTests.m; sourceTree = "<group>"; };
+		B5DA0BB61B5CB4D00015DD7D /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		B5DA0BB71B5CB4D00015DD7D /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				B5DA0B951B5CABDA0015DD7D /* AppDelegate.m */,
 				B5DA0B971B5CABDA0015DD7D /* ViewController.h */,
 				B5DA0B981B5CABDA0015DD7D /* ViewController.m */,
+				B5DA0BB61B5CB4D00015DD7D /* Animator.h */,
+				B5DA0BB71B5CB4D00015DD7D /* Animator.m */,
 				B5DA0B9A1B5CABDA0015DD7D /* Main.storyboard */,
 				B5DA0B9D1B5CABDA0015DD7D /* Images.xcassets */,
 				B5DA0B9F1B5CABDA0015DD7D /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DA0BB81B5CB4D00015DD7D /* Animator.m in Sources */,
 				B5DA0B991B5CABDA0015DD7D /* ViewController.m in Sources */,
 				B5DA0B961B5CABDA0015DD7D /* AppDelegate.m in Sources */,
 				B5DA0B931B5CABDA0015DD7D /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				B5DA0BB21B5CABDA0015DD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5DA0BB31B5CABDA0015DD7D /* Build configuration list for PBXNativeTarget "Custom UIViewController transitionsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				B5DA0BB51B5CABDA0015DD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
